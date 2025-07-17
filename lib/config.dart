@@ -3,12 +3,12 @@ import 'dart:ui';
 
 class Config {
 
-  static String baseUrl = 'https://pos.ultimatefosters.com/';
+  static String baseUrl = 'https://pos.dorob.org/';
   static int? userId;
-       String clientId = '3',
-        clientSecret = 'gFm0CJqXPoPxWZIzITcVDKs0LrRQrRFwo4BjW3gi  ',
+       String clientId = '5',
+        clientSecret = 'Klu9wIzo455wBvDz1yOKxhPuvhZkcGyuYe5nCt6t',
         copyright = '\u00a9',
-        appName = "Ultimate POS",
+        appName = "Dorob POS",
         version = 'V 1.7.2',
       splashScreen = '${Config.baseUrl}uploads/mobile/welcome.jpg',
       loginScreen = '${Config.baseUrl}uploads/mobile/login.jpg',
@@ -42,7 +42,7 @@ class Config {
   //dropdown items for changing language
   List<Map<String, dynamic>> lang = [
     {'languageCode': 'en', 'countryCode': 'US', 'name': 'English'},
-    {'languageCode': 'ar', 'countryCode': '', 'name': 'العربي'},
+    {'languageCode': 'ar', 'countryCode': '', 'name': 'اللغة العربية'},
     {'languageCode': 'de', 'countryCode': '', 'name': 'Deutsche'},
     {'languageCode': 'fr', 'countryCode': '', 'name': 'Français'},
     {'languageCode': 'es', 'countryCode': '', 'name': 'Español'},
