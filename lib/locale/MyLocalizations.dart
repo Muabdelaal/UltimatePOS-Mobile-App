@@ -84,7 +84,8 @@ class AppLanguage extends ChangeNotifier {
       _appLocale = Locale(prefs.getString('language_code')!);
     }
   }
-
+@override
+String get selectAllButtonLabel => 'Select All';
 //call this to change language
   void changeLanguage(Locale type, value) async {
     var prefs = await SharedPreferences.getInstance();
