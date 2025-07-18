@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 // import 'package:flutter_kurdish_localization/kurdish_cupertino_localization_delegate.dart';
 import 'package:flutter_kurdish_localization/kurdish_material_localization_delegate.dart';
-import 'package:flutter_kurdish_localization/kurdish_widget_localization_delegate.dart';
+// import 'package:flutter_kurdish_localization/kurdish_widget_localization_delegate.dart'; // علق عليه مؤقتاً
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
 
@@ -42,8 +42,9 @@ class MyApp extends StatelessWidget {
           supportedLocales: Config().supportedLocales,
           localizationsDelegates: [
             AppLocalizations.delegate,
-            //KurdishMaterialLocalizations.delegate,
-            KurdishWidgetLocalizations.delegate,
+            FixedWidgetsLocalizations.delegate, // أضف ده عشان يحل مشكلة selectAllButtonLabel
+            KurdishMaterialLocalizations.delegate,
+            // KurdishWidgetLocalizations.delegate, // علق عليه مؤقتاً عشان يسبب المشكلة
             // KurdishCupertinoLocalizations.delegate,
             GlobalMaterialLocalizations.delegate,
             GlobalCupertinoLocalizations.delegate,
