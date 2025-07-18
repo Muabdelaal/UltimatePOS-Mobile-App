@@ -141,13 +141,12 @@ class AppTheme {
     primaryColor: const Color(0xff3d63ff),
     canvasColor: Colors.transparent,
     scaffoldBackgroundColor: const Color(0xffffffff),
-    appBarTheme: AppBarThemeData(
+    appBarTheme: AppBarTheme(
       backgroundColor: const Color(0xffffffff),
       iconTheme: const IconThemeData(color: Color(0xff495057), size: 24),
       actionsIconTheme: const IconThemeData(color: Color(0xff495057)),
       titleTextStyle: lightAppBarTextTheme.titleLarge,
-      // Use the `TextTheme` directly for title styling
-      toolbarTextStyle: lightAppBarTextTheme.bodyMedium, // For toolbar elements
+      toolbarTextStyle: lightAppBarTextTheme.bodyMedium,
     ),
     navigationRailTheme: NavigationRailThemeData(
         selectedIconTheme: IconThemeData(color: Color(0xff3d63ff), opacity: 1, size: 24),
@@ -237,16 +236,12 @@ class AppTheme {
       canvasColor: Colors.transparent,
       primaryColor: Color(0xff3d63ff),
       scaffoldBackgroundColor: Color(0xff464c52),
-      appBarTheme: AppBarThemeData(
+      appBarTheme: AppBarTheme(
         backgroundColor: Colors.black,
-        // Set background color for the AppBar
         iconTheme: const IconThemeData(color: Color(0xffffffff)),
-        // Style for app bar icons
         actionsIconTheme: const IconThemeData(color: Color(0xffffffff)),
-        // Style for action icons
         titleTextStyle: darkAppBarTextTheme.titleLarge,
-        // Title text style
-        toolbarTextStyle: darkAppBarTextTheme.bodyMedium, // Toolbar text style
+        toolbarTextStyle: darkAppBarTextTheme.bodyMedium,
       ),
       cardTheme: CardThemeData(
         color: Color(0xff37404a),
