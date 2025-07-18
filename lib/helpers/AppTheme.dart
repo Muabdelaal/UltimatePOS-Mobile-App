@@ -197,7 +197,7 @@ class AppTheme {
       color: Color(0xffffffff),
       textStyle: lightTextTheme.bodyMedium!.merge(TextStyle(color: Color(0xff495057))),
     ),
-    bottomAppBarTheme: BottomAppBarThemeData(color: Color(0xffffffff), elevation: 2),
+    bottomAppBarTheme: BottomAppBarTheme(color: Color(0xffffffff), elevation: 2),
     tabBarTheme: TabBarThemeData(
       unselectedLabelColor: Color(0xff495057),
       labelColor: Color(0xff3d63ff),
@@ -289,7 +289,7 @@ class AppTheme {
         color: Color(0xff37404a),
         textStyle: lightTextTheme.bodyMedium!.merge(TextStyle(color: Color(0xffffffff))),
       ),
-      bottomAppBarTheme: BottomAppBarThemeData(color: Color(0xff464c52), elevation: 2),
+      bottomAppBarTheme: BottomAppBarTheme(color: Color(0xff464c52), elevation: 2),
       tabBarTheme: TabBarThemeData(
         unselectedLabelColor: Color(0xff495057),
         labelColor: Color(0xff3d63ff),
