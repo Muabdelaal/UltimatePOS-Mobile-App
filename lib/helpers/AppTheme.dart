@@ -141,7 +141,7 @@ class AppTheme {
     primaryColor: const Color(0xff3d63ff),
     canvasColor: Colors.transparent,
     scaffoldBackgroundColor: const Color(0xffffffff),
-    appBarTheme: AppBarTheme(
+    appBarTheme: AppBarThemeData(
       backgroundColor: const Color(0xffffffff),
       iconTheme: const IconThemeData(color: Color(0xff495057), size: 24),
       actionsIconTheme: const IconThemeData(color: Color(0xff495057)),
@@ -197,7 +197,7 @@ class AppTheme {
       color: Color(0xffffffff),
       textStyle: lightTextTheme.bodyMedium!.merge(TextStyle(color: Color(0xff495057))),
     ),
-    bottomAppBarTheme: BottomAppBarTheme(color: Color(0xffffffff), elevation: 2),
+    bottomAppBarTheme: BottomAppBarThemeData(color: Color(0xffffffff), elevation: 2),
     tabBarTheme: TabBarThemeData(
       unselectedLabelColor: Color(0xff495057),
       labelColor: Color(0xff3d63ff),
@@ -237,7 +237,7 @@ class AppTheme {
       canvasColor: Colors.transparent,
       primaryColor: Color(0xff3d63ff),
       scaffoldBackgroundColor: Color(0xff464c52),
-      appBarTheme: AppBarTheme(
+      appBarTheme: AppBarThemeData(
         backgroundColor: Colors.black,
         // Set background color for the AppBar
         iconTheme: const IconThemeData(color: Color(0xffffffff)),
@@ -289,7 +289,7 @@ class AppTheme {
         color: Color(0xff37404a),
         textStyle: lightTextTheme.bodyMedium!.merge(TextStyle(color: Color(0xffffffff))),
       ),
-      bottomAppBarTheme: BottomAppBarTheme(color: Color(0xff464c52), elevation: 2),
+      bottomAppBarTheme: BottomAppBarThemeData(color: Color(0xff464c52), elevation: 2),
       tabBarTheme: TabBarThemeData(
         unselectedLabelColor: Color(0xff495057),
         labelColor: Color(0xff3d63ff),
