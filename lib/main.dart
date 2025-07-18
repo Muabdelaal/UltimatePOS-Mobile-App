@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
           supportedLocales: Config().supportedLocales,
           localizationsDelegates: [
             AppLocalizations.delegate,
-            KurdishMaterialLocalizations.delegate,
+            //KurdishMaterialLocalizations.delegate,
             KurdishWidgetLocalizations.delegate,
             // KurdishCupertinoLocalizations.delegate,
             GlobalMaterialLocalizations.delegate,
