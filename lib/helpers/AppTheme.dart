@@ -198,7 +198,7 @@ class AppTheme {
       textStyle: lightTextTheme.bodyMedium!.merge(TextStyle(color: Color(0xff495057))),
     ),
     bottomAppBarTheme: BottomAppBarTheme(color: Color(0xffffffff), elevation: 2),
-    tabBarTheme: TabBarTheme(
+    tabBarTheme: TabBarThemeData(
       unselectedLabelColor: Color(0xff495057),
       labelColor: Color(0xff3d63ff),
       indicatorSize: TabBarIndicatorSize.label,
@@ -290,7 +290,7 @@ class AppTheme {
         textStyle: lightTextTheme.bodyMedium!.merge(TextStyle(color: Color(0xffffffff))),
       ),
       bottomAppBarTheme: BottomAppBarTheme(color: Color(0xff464c52), elevation: 2),
-      tabBarTheme: TabBarTheme(
+      tabBarTheme: TabBarThemeData(
         unselectedLabelColor: Color(0xff495057),
         labelColor: Color(0xff3d63ff),
         indicatorSize: TabBarIndicatorSize.label,
