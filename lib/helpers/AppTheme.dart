@@ -156,7 +156,7 @@ class AppTheme {
         elevation: 3,
         selectedLabelTextStyle: TextStyle(color: Color(0xff3d63ff)),
         unselectedLabelTextStyle: TextStyle(color: Color(0xff495057))),
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       color: Colors.white,
       shadowColor: Colors.black.withOpacity(0.4),
       elevation: 1,
@@ -248,7 +248,7 @@ class AppTheme {
         // Title text style
         toolbarTextStyle: darkAppBarTextTheme.bodyMedium, // Toolbar text style
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: Color(0xff37404a),
         shadowColor: Color(0xff000000),
         elevation: 1,
